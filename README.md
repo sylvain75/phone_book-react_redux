@@ -1,6 +1,6 @@
 # Phone Book Using React/Redux and Material UI
 
-I did not implement any css framework such as bootstrap and I wanted to practice inline style because it seems tidier than a CSS file. Furthermore regarding the UI, I consider the elements provided by material-ui are nicer and clearly made for React. I did not use some of the installed package such as redux-infinite-scroll because the idea to use ```overflow``` came after.
+I did not implement any CSS framework such as bootstrap because I wanted to practice inline style in each component, it seems tidier. Furthermore regarding the UI, I consider the elements provided by material-ui are nicer and clearly made for React. I did not use some of the installed package such as redux-infinite-scroll because the idea to use ```overflow``` came after.
 Few things could be added such avatar in contact details and with much more time an "add a new contact" feature.
 
 ## The cool parts
