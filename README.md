@@ -15,5 +15,8 @@ Few things could be added such avatar in contact details and with much more time
 - Installing packages was a bit bit tricky. Again I need to practice more.
 - Fixing some invisible contact on scrolling with ```paddingTop```/ ```marginTop``` on the ContactList was a bit tricky.
 
+### Screenshots:
+
 ![alt text](https://github.com/sylvain75/phone_book-react_redux/blob/master/public/screenShots/ScreenShot1.png "screenShot1")
+***
 ![alt text](https://github.com/sylvain75/phone_book-react_redux/blob/master/public/screenShots/ScreenShot2.png "screenShot2")
