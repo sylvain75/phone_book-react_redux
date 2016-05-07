@@ -1,7 +1,7 @@
 # Phone Book Using React/Redux and Material UI
 
-I did not implement any css framework such as bootstrap and I wanted to practice inline style because it seems tidier than a CSS file. Furthermore regarding the UI I consider The elements provided by material-ui nicer and clearly made for React. I did not use some of the package such as redux-infinite-scroll because the idea to use ```overflow``` came after.
-Few things could be added such avatar in contact details and wth much more time the adding contact feature with redux.
+I did not implement any css framework such as bootstrap and I wanted to practice inline style because it seems tidier than a CSS file. Furthermore regarding the UI, I consider the elements provided by material-ui are nicer and clearly made for React. I did not use some of the installed package such as redux-infinite-scroll because the idea to use ```overflow``` came after.
+Few things could be added such avatar in contact details and with much more time an "add a new contact" feature.
 
 ## The cool parts
 - Being able to link the React parts with no trouble.
@@ -15,5 +15,5 @@ Few things could be added such avatar in contact details and wth much more time 
 - Installing packages was a bit bit tricky. Again I need to practice more.
 - Fixing some invisible contact on scrolling with ```paddingTop```/ ```marginTop``` on the ContactList was a bit tricky.
 
-![alt text](https://github.com/sylvain75/phone_book-react_redux/tree/master/public/screenShots/screenShot1.png "screenShot1")
-![alt text](https://github.com/sylvain75/phone_book-react_redux/tree/master/public/screenShots/screenShot2.png "screenShot2")
+![alt text](https://github.com/sylvain75/phone_book-react_redux/blob/master/public/screenShots/ScreenShot1.png "screenShot1")
+![alt text](https://github.com/sylvain75/phone_book-react_redux/blob/master/public/screenShots/ScreenShot2.png "screenShot2")
