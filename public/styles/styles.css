@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  color: #626262;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#app {
+  overflow: hidden;
+  height: 100%;
+}
