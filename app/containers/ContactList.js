@@ -25,7 +25,7 @@ class ContactList extends Component {
   render() {
     return (
       <Paper
-        style={styles.share}
+        style={styles.wrapper}
         zDepth={1}>
         <h2>Contact List</h2>
         {this.renderContactsList()}
@@ -51,7 +51,7 @@ const styles = {
     display: 'block',
     width: '100%',
   },
-  share: {
+  wrapper: {
     textAlign: 'center',
     overflow: 'scroll',
     width: '300px',
