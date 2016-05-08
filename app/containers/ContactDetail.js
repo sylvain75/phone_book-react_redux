@@ -10,7 +10,7 @@ class ContactDetail extends Component {
     if (!this.props.contact) {
       return (
         <Paper
-          style={styles.share}
+          style={styles.wrapper}
           zDepth={1}>
           <h2 style={styles.titlePlease}>Please, select a contact to display</h2>
         </Paper>
@@ -20,7 +20,7 @@ class ContactDetail extends Component {
     const { firstName, lastName, address, phone, email, } = this.props.contact;
     return (
       <Paper
-        style={styles.share}
+        style={styles.wrapper}
         zDepth={1}>
         <List>
           <ListItem
@@ -62,7 +62,7 @@ const styles = {
   titlePlease: {
     margin: '250px 0px',
   },
-  share: {
+  wrapper: {
     flex: 1,
     backgroundColor: 'white',
     textAlign: 'center',
@@ -73,9 +73,4 @@ const styles = {
     textAlign: 'left',
     color: '#626262',
   },
-  image: {
-    width: '80%',
-    backgroundSize: 'cover',
-  },
-
 };

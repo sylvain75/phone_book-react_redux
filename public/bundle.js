@@ -56408,7 +56408,7 @@
 	        return _react2.default.createElement(
 	          _materialUi.Paper,
 	          {
-	            style: styles.share,
+	            style: styles.wrapper,
 	            zDepth: 1 },
 	          _react2.default.createElement(
 	            'h2',
@@ -56428,7 +56428,7 @@
 	      return _react2.default.createElement(
 	        _materialUi.Paper,
 	        {
-	          style: styles.share,
+	          style: styles.wrapper,
 	          zDepth: 1 },
 	        _react2.default.createElement(
 	          _materialUi.List,
@@ -56475,7 +56475,7 @@
 	  titlePlease: {
 	    margin: '250px 0px'
 	  },
-	  share: {
+	  wrapper: {
 	    flex: 1,
 	    backgroundColor: 'white',
 	    textAlign: 'center',
@@ -56485,12 +56485,7 @@
 	    marginLeft: 150,
 	    textAlign: 'left',
 	    color: '#626262'
-	  },
-	  image: {
-	    width: '80%',
-	    backgroundSize: 'cover'
 	  }
-
 	};
 
 /***/ },
