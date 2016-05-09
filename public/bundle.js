@@ -21920,7 +21920,8 @@
 	        _react2.default.createElement(_materialUi.AppBar, {
 	          title: 'Contact Book',
 	          showMenuIconButton: false,
-	          style: styles.appBar }),
+	          style: styles.appBar,
+	          titleStyle: { fontSize: '1.5em' } }),
 	        _react2.default.createElement(
 	          'div',
 	          { style: styles.wrapper },
@@ -21939,7 +21940,8 @@
 
 	var styles = {
 	  appBar: {
-	    textAlign: 'center'
+	    textAlign: 'center',
+	    fontSize: '1.5em'
 	  },
 	  wrapper: {
 	    textAlign: 'center',
@@ -56482,6 +56484,7 @@
 	    margin: '0px auto'
 	  },
 	  list: {
+	    fontSize: '1.3em',
 	    marginLeft: 150,
 	    textAlign: 'left',
 	    color: '#626262'

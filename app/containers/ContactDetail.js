@@ -69,6 +69,7 @@ const styles = {
     margin: '0px auto',
   },
   list: {
+    fontSize: '1.3em',
     marginLeft: 150,
     textAlign: 'left',
     color: '#626262',

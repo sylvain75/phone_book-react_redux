@@ -14,7 +14,8 @@ export default class Main extends Component {
         <AppBar
           title='Contact Book'
           showMenuIconButton={false}
-          style={styles.appBar}/>
+          style={styles.appBar}
+          titleStyle={{fontSize: '1.5em'}}/>
         <div style={styles.wrapper}>
           <ContactList />
           <ContactDetail />
@@ -27,6 +28,7 @@ export default class Main extends Component {
 const styles = {
   appBar: {
     textAlign: 'center',
+    fontSize: '1.5em',
   },
   wrapper: {
     textAlign: 'center',
